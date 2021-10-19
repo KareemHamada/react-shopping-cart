@@ -37,7 +37,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+header a:hover {
     color: rgb(240, 62, 172);
 }
 
@@ -51,4 +51,57 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex: 80%;
+}
+
+.sidebar {
+    flex: 20%;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.product-container {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.product-container img {
+    height: 350px;
+    width: 100%;
+}
+
+.product-container p {
+    margin: 8px 0;
+    color: rgb(255, 109, 109);
+}
+
+.product-container .last-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5px;
+}
+
+.btn {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.btn.primary {
+    background-color: rgb(61, 200, 255);
+    color: white;
 }
