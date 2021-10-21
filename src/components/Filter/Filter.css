@@ -1,0 +1,10 @@
+.filter {
+    display: flex;
+    justify-content: space-evenly;
+    height: 2.3rem;
+    align-items: center;
+}
+
+.filter div select {
+    margin-left: .4rem;
+}
